@@ -1,0 +1,7 @@
+- args:
+    permission:
+      columns: []
+      filter: {}
+    role: user
+    table: disaster_declaration_summaries
+  type: create_select_permission

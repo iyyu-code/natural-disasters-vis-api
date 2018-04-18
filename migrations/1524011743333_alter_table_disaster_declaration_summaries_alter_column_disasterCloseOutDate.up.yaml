@@ -1,0 +1,8 @@
+- args:
+    sql: ALTER TABLE "disaster_declaration_summaries" ALTER COLUMN "disasterCloseOutDate"
+      TYPE timestamptz;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "disaster_declaration_summaries" ALTER COLUMN "disasterCloseOutDate"
+      DROP NOT NULL;
+  type: run_sql
