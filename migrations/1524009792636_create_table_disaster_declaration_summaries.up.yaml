@@ -1,0 +1,14 @@
+- args:
+    sql: CREATE TABLE "disaster_declaration_summaries"("disasterNumber" integer NOT
+      NULL, "ihProgramDeclared" boolean NOT NULL, "iaProgramDeclared" boolean NOT
+      NULL, "paProgramDeclared" boolean NOT NULL, "hmProgramDeclared" boolean NOT
+      NULL, "state" text NOT NULL, "declarationDate" timestamptz NOT NULL, "fyDeclared"
+      integer NOT NULL, "disasterType" text NOT NULL, "incidentType" text NOT NULL,
+      "title" text NOT NULL, "incidentBeginDate" timestamptz NOT NULL, "incidentEndDate"
+      timestamptz NOT NULL, "disasterCloseOutDate" timestamptz NOT NULL, "declaredCountyArea"
+      text , "placeCode" integer , "hash" text NOT NULL, "lastRefresh" timestamptz
+      NOT NULL, PRIMARY KEY ("hash") )
+  type: run_sql
+- args:
+    name: disaster_declaration_summaries
+  type: add_existing_table_or_view
