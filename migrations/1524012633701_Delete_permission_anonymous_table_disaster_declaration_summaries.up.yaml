@@ -1,0 +1,4 @@
+- args:
+    role: anonymous
+    table: disaster_declaration_summaries
+  type: drop_delete_permission

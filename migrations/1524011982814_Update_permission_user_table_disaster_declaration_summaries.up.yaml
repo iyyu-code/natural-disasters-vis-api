@@ -1,0 +1,6 @@
+- args:
+    permission:
+      filter: {}
+    role: user
+    table: disaster_declaration_summaries
+  type: create_delete_permission

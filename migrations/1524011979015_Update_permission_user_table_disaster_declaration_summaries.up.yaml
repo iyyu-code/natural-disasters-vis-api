@@ -1,0 +1,25 @@
+- args:
+    permission:
+      columns:
+      - disasterNumber
+      - ihProgramDeclared
+      - iaProgramDeclared
+      - paProgramDeclared
+      - hmProgramDeclared
+      - state
+      - declarationDate
+      - fyDeclared
+      - disasterType
+      - incidentType
+      - title
+      - incidentBeginDate
+      - declaredCountyArea
+      - placeCode
+      - hash
+      - lastRefresh
+      - disasterCloseOutDate
+      - incidentEndDate
+      filter: {}
+    role: user
+    table: disaster_declaration_summaries
+  type: create_update_permission

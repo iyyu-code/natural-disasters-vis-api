@@ -1,0 +1,7 @@
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+    role: user
+    table: disaster_declaration_summaries
+  type: create_insert_permission
